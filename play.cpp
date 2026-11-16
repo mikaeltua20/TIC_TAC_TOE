@@ -10,6 +10,7 @@ bool has_won(char player)
             (board[0][i] == player && board[1][i] == player && board[2][i] == player))
             return true;
     }
+// nice
 
     return (board[0][0] == player && board[1][1] == player && board[2][2] == player) ||
            (board[0][2] == player && board[1][1] == player && board[2][0] == player);
